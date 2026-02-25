@@ -26,4 +26,4 @@ ftfy
 accelerate
 
 # ── Streamlit web UI ──────────────────────────────────────────────────────────
-streamlit
+streamlit>=1.35.0,<1.43.0

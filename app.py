@@ -57,7 +57,7 @@ uploaded = st.file_uploader("Upload an image", type=['jpg', 'jpeg', 'png'])
 
 if uploaded:
     img = Image.open(uploaded).convert('RGB')
-    st.image(img, caption="Uploaded Image", width='stretch')
+    st.image(img, caption="Uploaded Image")
     st.write("---")
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -81,7 +81,7 @@ if uploaded:
         st.info("No objects detected in this image (YOLOv8 is trained on COCO classes: people, cars, animals, etc.).")
     else:
         st.success(f"**{num_objects} object(s) detected.**")
-    st.image(det_img, caption="YOLOv8 Detections", width='stretch')
+    st.image(det_img, caption="YOLOv8 Detections")
 
     st.write("---")
 
