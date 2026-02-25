@@ -1,10 +1,11 @@
-# ── Core scientific stack ──────────────────────────────────────────────────────
+# Core scientific stack ──────────────────────────────────────────────────────
 numpy
 pandas
 matplotlib
 seaborn
 Pillow
 tqdm
+altair<5
 
 # ── PyTorch ────────────────────────────────────────────────────────────────────
 # CPU-only by default. For GPU, install the correct CUDA wheel from:
