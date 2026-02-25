@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights (large files — store separately via Git LFS or cloud)
+models/*.pth
+models/*.pt
+*.pt
+
+# YOLO auto-download cache
+runs/
+
+# Temp files created by the app
+tmp_input.jpg
+tmp_caption.jpg
+
+# Dataset (too large to commit — document download steps in README)
+data/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env

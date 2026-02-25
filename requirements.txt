@@ -1,0 +1,28 @@
+# ── Core scientific stack ──────────────────────────────────────────────────────
+numpy
+pandas
+matplotlib
+seaborn
+Pillow
+tqdm
+
+# ── PyTorch ────────────────────────────────────────────────────────────────────
+# CPU-only by default. For GPU, install the correct CUDA wheel from:
+# https://pytorch.org/get-started/locally/
+torch
+torchvision
+
+# ── Ultralytics YOLOv8 ────────────────────────────────────────────────────────
+# Used for:
+#   - Object detection  : yolov8n-oiv7.pt  (Open Images V7, 601 classes)
+#   - Classification    : yolov8n-cls.pt   (ImageNet-1K, 1000 classes)
+ultralytics
+
+# ── Hugging Face — BLIP image captioning ──────────────────────────────────────
+transformers
+sentencepiece
+ftfy
+accelerate
+
+# ── Streamlit web UI ──────────────────────────────────────────────────────────
+streamlit
