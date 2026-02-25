@@ -109,6 +109,19 @@ The **Image EDA** section (bottom of the app) automatically computes for every u
 
 ---
 
+## ✅ Advantages
+
+- **No training required** — Uses pretrained models (ResNet-50, YOLOv8) out of the box with state-of-the-art accuracy
+- **Multi-model comparison** — Simultaneously runs ResNet-50 and YOLOv8-cls and displays results side-by-side for the same image
+- **601-class detection** — YOLOv8 Open Images V7 detects far more object types than standard COCO models (cars, animals, instruments, household items, etc.)
+- **Generative AI captioning** — BLIP produces natural language descriptions, not just labels
+- **Live EDA** — Instant per-image statistics and RGB histogram without any external script
+- **Lightweight deployment** — All models auto-download on first use; no manual setup of large datasets
+- **Scalable architecture** — Modular `scripts/` structure makes it easy to swap models or add new pipelines
+- **Cloud-ready** — Includes `packages.txt` and `.streamlit/config.toml` for one-click Streamlit Community Cloud deployment
+
+---
+
 ## 🛠️ Technologies
 
 - **Python 3.9+**
@@ -117,9 +130,3 @@ The **Image EDA** section (bottom of the app) automatically computes for every u
 - **Hugging Face Transformers** — BLIP image captioning
 - **Streamlit** — Web UI
 - **NumPy / Pandas / Matplotlib** — EDA & data handling
-
----
-
-## 📄 License
-
-MIT
